@@ -457,6 +457,20 @@ progress {
   display: none !important;
 }
 
+/* PROJECTS */
+.projBox{
+  margin: 10px;
+  background-color: blue;
+}
+
+#projects{
+  display: flex;
+  margin: auto;
+}
+#projects .row div{
+ margin-bottom: 10px;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -10933,6 +10947,13 @@ p.lead {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    
+  }
+
+  .img-profile{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
   }
   #sideNav .navbar-collapse {
     display: flex;

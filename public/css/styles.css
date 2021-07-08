@@ -93,6 +93,29 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.475rem + 2.7vw);
+  z-index: 5;
+}
+
+.borders{
+  border-bottom: 50px solid #bd5d38 !important;
+  width: 20%;
+  margin-top: -80px;
+  margin-left: 20px;
+  z-index: 1;
+  opacity: 100%;
+}
+/* hr#borderB{
+  border-bottom: 50px solid #bd5d38 ;
+  width: max-content;
+  margin-top: -80px;
+  z-index: 1;
+  opacity: 100%;
+  
+} */
+#Int{
+ position: relative;
+ left:20px;
+ z-index: -1;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -458,9 +481,8 @@ progress {
 }
 
 /* ABOUT */
-/* #about {
-  animation: fadein 2s ease;
-} */
+
+/* ANIMATIONS */
 
 .fadein{
   animation: fadein 2s ease;
@@ -472,7 +494,8 @@ progress {
   opacity: 0%;
 }
 100%{
-opacity: 100%}
+opacity: 100%;
+}
 }
 
 /* PROJECTS */

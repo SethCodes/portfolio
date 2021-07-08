@@ -458,19 +458,21 @@ progress {
 }
 
 /* ABOUT */
-#about {
-  animation: comein 2s ease;
+/* #about {
+  animation: fadein 2s ease;
+} */
+
+.fadein{
+  animation: fadein 2s ease;
+
 }
-@keyframes comein {
+
+@keyframes fadein {
 0%{
-  margin-left: -500px;
-}
-50%{
-  margin-left: -250px;
+  opacity: 0%;
 }
 100%{
-  margin-left: 0px
-}
+opacity: 100%}
 }
 
 /* PROJECTS */

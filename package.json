@@ -21,7 +21,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://sethcodes.github.io/portfolio/",
+    "homepage": "https://sethcodes.github.io/portfolio/public/index.html",
     "bugs": {
         "url": "https://github.com/StartBootstrap/startbootstrap-resume/issues",
         "email": "feedback@startbootstrap.com"

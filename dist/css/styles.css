@@ -457,6 +457,22 @@ progress {
   display: none !important;
 }
 
+/* ABOUT */
+#about {
+  animation: comein 2s ease;
+}
+@keyframes comein {
+0%{
+  margin-left: -500px;
+}
+50%{
+  margin-left: -250px;
+}
+100%{
+  margin-left: 0px
+}
+}
+
 /* PROJECTS */
 .projBox{
   margin: 10px;
